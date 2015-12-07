@@ -29,8 +29,8 @@ device.on('connect', function() {
           var record = {
               "deviceid": "pi_01",
               "timestamp": datas[0],
-              "temp": datas[1],
-              "hum": datas[2],
+              "hum": datas[1],
+              "temp": datas[2],
               "lx": datas[3],
               "moi": datas[4].replace(/[\n\r]/g,"")
           };
